@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Regular.woff2') format('woff2'),
+    url('../fonts/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: "Rubik", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+span{
+    margin-right: 1rem;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7a7a7a;
+}
+b{
+    color: #295091;
+    margin-right: 5px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #515151;
+    font-weight: 600;
+}
+a:hover{
+    color: #295091;
+}
+.site-header{
+    background-color: #F6F6F9;
+    padding: 44px 120px 23px;
+}
+.logo-link{
+    background-color: #fff;
+    padding: 3px 8px 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.sitenav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 21px 25px 22px 24px;
+    margin-bottom: 18px;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+.header-text{
+    display: flex;
+    align-items: center;
+    margin-left: 23px;
+}
+.btn-top{
+    padding: 8px;
+    border: 1px solid transparent;
+    background-color: white;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.language-logo{
+    border-radius: 50%;
+    margin-right: .4rem;
+}
+.main-img{
+    width: 100%;
+}
+.tg-link{
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.tg-logo{
+    margin-right: .4rem;
+}
