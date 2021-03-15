@@ -36,6 +36,8 @@ ul{
     display: flex;
     list-style: none;
     justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 .site-header{
     background-color: #F6F6F9;
