@@ -31,6 +31,12 @@ a{
 a:hover{
     color: #295091;
 }
+ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
 .site-header{
     background-color: #F6F6F9;
     padding: 44px 120px 23px;
