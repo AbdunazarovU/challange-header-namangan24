@@ -34,11 +34,12 @@ a:hover{
 ul{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
-    justify-content: space-between;
     margin: 0;
     padding: 0;
 }
+
 .site-header{
     background-color: #F6F6F9;
     padding: 44px 120px 23px;
@@ -59,6 +60,11 @@ ul{
     padding: 21px 25px 22px 24px;
     margin-bottom: 18px;
 }
+
+.sitenav li:not(li:last-child){
+    margin-right: 40px;
+}
+
 .wrapper{
     display: flex;
     align-items: center;
