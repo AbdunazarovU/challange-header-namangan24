@@ -59,6 +59,7 @@ ul{
     background-color: #fff;
     padding: 21px 25px 22px 24px;
     margin-bottom: 18px;
+    border-radius: 5px;
 }
 
 .sitenav li:not(li:last-child){
