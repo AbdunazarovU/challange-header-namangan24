@@ -45,6 +45,7 @@ ul{
     padding: 44px 120px 23px;
 }
 .logo-link{
+    border-radius: 10px;
     background-color: #fff;
     padding: 3px 8px 0;
 }
@@ -64,6 +65,7 @@ ul{
 
 .sitenav li:not(li:last-child){
     margin-right: 40px;
+    font-size: 25px;
 }
 
 .wrapper{
@@ -101,4 +103,9 @@ ul{
 }
 .tg-logo{
     margin-right: .4rem;
+}
+
+.main{
+    text-align: center;
+    justify-content: center;
 }
